@@ -1,0 +1,170 @@
+* {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  font-size: 14px;
+  box-sizing: border-box;
+}
+
+input {
+  border: 0;
+}
+
+body,
+html {
+  width: 100%;
+  height: 100%;
+}
+
+.wrap {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.head,
+.foot {
+  width: 100%;
+  height: 50px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 20px;
+}
+
+.foot {
+  height: 60px;
+  padding: 0 40px;
+}
+
+.foot dl {
+  flex: 1;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+}
+
+.foot dl dt {
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  overflow: hidden;
+  margin: 0 auto;
+}
+
+.foot dl dt img {
+  width: 100%;
+  height: 100%;
+  display: block;
+  margin: 0 auto;
+}
+
+.foot dl dd {
+  line-height: 30px;
+}
+
+.head p {
+  font-size: 18px;
+}
+
+.head p:nth-child(2) {
+  width: 60px;
+  border: 1px solid #ccc;
+  border-radius: 15px;
+  padding: 2px 8px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.head p span {
+  padding: 0px 4px;
+}
+
+.cont {
+  width: 100%;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  padding: 0 20px;
+}
+
+.cont .input {
+  width: 100%;
+  height: 30px;
+  line-height: 30px;
+  border-radius: 10px;
+  overflow: hidden;
+  position: relative;
+}
+
+.cont .input .search {
+  position: absolute;
+  top: 0;
+  left: 10px;
+}
+
+.cont .input input {
+  padding-left: 25px;
+  width: 100%;
+  height: 100%;
+  border: 1px solid #ccc;
+  background: #ccc;
+}
+
+.list-nav {
+  width: 100%;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+}
+
+.list-nav h4 {
+  line-height: 30px;
+  font-size: 18px;
+}
+
+.list-nav .list {
+  width: 100%;
+  height: 50px;
+  display: flex;
+}
+
+.list-nav .list li {
+  flex: 1;
+  line-height: 30px;
+}
+
+.pro-box {
+  width: 100%;
+  flex: 1;
+  overflow: hidden;
+}
+
+.pro-box .list-pro {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.pro-box .list-pro li {
+  width: 100%;
+  display: flex;
+}
+
+.pro-box .list-pro li .img {
+  flex: 3;
+  margin-right: 10px;
+}
+
+.pro-box .list-pro li .img img {
+  width: 100%;
+}
+
+.pro-box .list-pro li .font {
+  flex: 7;
+}
+
+.pro-box .list-pro li .font .title {
+  font-size: 16px;
+}
